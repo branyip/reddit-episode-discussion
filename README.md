@@ -16,4 +16,11 @@ pip install -r requirements.txt
 
 
 ## Running
-Add your Reddit application credentials to `cfg.yml`.
+Add your Reddit application credentials to `cfg.yml` at the project root.
+```yaml
+# cfg.yml
+reddit:
+  client_id: <client_id>
+  client_secret: <client_secret>
+  user_agent: 'reddit-episode-discussion'
+```
