@@ -1,8 +1,8 @@
 # Reddit Episode Discussion
 
-Finds Episode discussion threads on Reddit, a great companion for your tv binging sessions.
+Finds tv episode discussion threads on Reddit, a great binging companion.
 
-Note: This is a WIP, and the nature of user-dictated titles means pattern matching will not cover all cases.
+Note: This is a WIP, and user-defined thread titles means pattern matching may not cover all cases.
 
 ## To-Do
 - [ ] Add api service
