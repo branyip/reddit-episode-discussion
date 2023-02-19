@@ -38,7 +38,7 @@ submissions_parsed = reddit.parse_submissions(submissions, pattern)
 ```
 
 The value of `submissions_parsed`:
-```json
+```
 [
     {
         "season": 1,
