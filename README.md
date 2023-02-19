@@ -4,6 +4,9 @@ Finds Episode discussion threads on Reddit, a great companion for your tv bingin
 
 Note: This is a WIP, and the nature of user-dictated titles means pattern matching will not cover all cases.
 
+## To-Do
+- [ ] Convert to api
+
 ## Prerequisites
 - Python >= 3.8
 - virtualenv Python package
