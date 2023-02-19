@@ -1,2 +1,4 @@
+fuzzywuzzy==0.18.0
 praw==7.6.1
+python-levenshtein==0.20.9
 pyyaml==6.0
