@@ -44,7 +44,8 @@ class RedditHandler:
     @staticmethod
     def clean_submissions(submissions: list):
         """Calculates the Levenshtein partial ratio for each submission's title compared to all other submission
-        titles, and then removes any submissions that have a ratio greater than two standard deviations."""
+        titles, and then removes any submissions that have a ratio greater than two standard deviations from the
+        average levenshtein ratio."""
         for submission in submissions:
             ratio_total = 0
             for discussion_inner in submissions:
