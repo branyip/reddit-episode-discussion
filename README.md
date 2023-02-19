@@ -35,7 +35,7 @@ Running the following code will get you a list of submissions
 from reddit_handler import RedditHandler
 
 reddit = RedditHandler(search_limit=200)
-submissions = reddit.find_submissions('witcher')
+submissions = reddit.find_submissions(subreddit_name='witcher')
 pattern = reddit.get_title_pattern(submissions)
 submissions_parsed = reddit.parse_submissions(submissions, pattern)
 ```
