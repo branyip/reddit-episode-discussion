@@ -30,17 +30,12 @@ reddit:
   user_agent: 'reddit-episode-discussion'
 ```
 
-Running the following code will get you a list of submissions
-```python
-from reddit_handler import RedditHandler
-
-reddit = RedditHandler(search_limit=200)
-submissions = reddit.find_submissions(subreddit_name='witcher')
-pattern = reddit.get_title_pattern(submissions)
-submissions_parsed = reddit.parse_submissions(submissions, pattern)
+Example usage:
+```bash
+uvicorn api:app --reload
+curl 'http://localhost:8000/discussions?subreddit=witcher'
 ```
-
-The value of `submissions_parsed`:
+Response:
 ```
 [
     {
